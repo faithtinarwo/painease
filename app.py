@@ -579,8 +579,8 @@ elif st.session_state.current_page == 'alerts':
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #64748B; padding: 1rem;">
-    <p>🏥 Batho Pele Healthcare Eligibility System | POPIA Compliant | 
+    <p>🏥 HealthVerify Healthcare Eligibility System | POPIA Compliant | 
     Supporting UN SDG Goals 3, 10 & 16</p>
-    <p><small>© 2024 Batho Pele. All rights reserved.</small></p>
+    <p><small>© 2024 HealthVerify. All rights reserved.</small></p>
 </div>
 """, unsafe_allow_html=True)
