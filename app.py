@@ -205,8 +205,8 @@ if st.session_state.current_page == 'home':
     # HOME PAGE
     st.markdown("""
     <div class="main-header">
-        <h1>🏥 Batho Pele Healthcare Eligibility System</h1>
-        <p>AI-powered patient verification supporting public hospitals in South Africa</p>
+                <h1>🏥 HealthVerify - Patient Eligibility System</h1>
+        <p>AI-powered patient verification supporting public healthcare systems worldwide</p>
     </div>
     """, unsafe_allow_html=True)
     
