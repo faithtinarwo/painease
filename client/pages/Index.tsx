@@ -78,7 +78,7 @@ export default function Index() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-foreground">
-                  Batho Pele
+                  HealthVerify
                 </h1>
                 <p className="text-xs text-muted-foreground">
                   Healthcare Eligibility System
@@ -358,7 +358,7 @@ export default function Index() {
                 <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
                   <Heart className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="text-lg font-bold">Batho Pele</span>
+                <span className="text-lg font-bold">HealthVerify</span>
               </div>
               <p className="text-muted-foreground mb-4">
                 Empowering South African public hospitals with AI-driven patient
@@ -417,7 +417,7 @@ export default function Index() {
           </div>
           <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
             <p>
-              &copy; 2024 Batho Pele Healthcare System. All rights reserved.
+              &copy; 2024 HealthVerify Healthcare System. All rights reserved.
               POPIA Compliant.
             </p>
           </div>
