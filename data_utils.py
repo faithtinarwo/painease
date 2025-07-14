@@ -489,7 +489,7 @@ class ReportGenerator:
             recommendations.append("Implement additional data protection measures")
         
         if score < 60:
-            recommendations.append("Conduct POPIA compliance training")
+                        recommendations.append("Conduct privacy compliance training")
             recommendations.append("Review data handling procedures")
         
         return recommendations
