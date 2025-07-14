@@ -1,6 +1,6 @@
 """
-Data Management Utilities for Batho Pele Healthcare System
-Handles data storage, retrieval, and POPIA compliance
+Data Management Utilities for HealthVerify Patient Eligibility System
+Handles data storage, retrieval, and privacy compliance
 """
 
 import pandas as pd
