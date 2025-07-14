@@ -89,8 +89,8 @@ class SecureDataManager:
         salt = "batho_pele_2024"  # In production, use environment variable
         return hashlib.sha256(f"{patient_id}{salt}".encode()).hexdigest()
     
-    def store_verification(self, verification_data: Dict) -> str:
-        """Store verification result with POPIA compliance"""
+        def store_verification(self, verification_data: Dict) -> str:
+        """Store verification result with privacy compliance"""
         verification_id = str(uuid.uuid4())
         
         # Hash sensitive data
