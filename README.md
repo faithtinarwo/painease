@@ -12,7 +12,7 @@ Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resou
 - **AI Classification**: Intelligent patient categorization (Citizen, Legal Immigrant, Undocumented)
 - **Eligibility Assessment**: Determines healthcare payment requirements
 - **Fraud Detection**: Real-time suspicious activity alerts
-- **POPIA Compliant**: Secure data handling meeting South African privacy regulations
+- **Privacy Compliant**: Secure data handling meeting South African privacy regulations
 
 ### 📊 **Admin Dashboard**
 
@@ -24,7 +24,7 @@ Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resou
 
 ### 🚨 **Compliance & Security**
 
-- **POPIA Compliance**: 7-year data retention with automatic cleanup
+- **Privacy Compliance**: 7-year data retention with automatic cleanup
 - **Audit Logging**: Complete action trail for accountability
 - **Data Anonymization**: Patient ID hashing for privacy protection
 - **Secure Storage**: Encrypted database with access controls
@@ -62,7 +62,7 @@ Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resou
 batho-pele-app/
 ├── app.py                 # Main Streamlit application
 ├── ai_verification.py     # AI document verification engine
-├── data_utils.py         # Data management and POPIA compliance
+├── data_utils.py         # Data management and Privacy compliance
 ├── requirements.txt      # Python dependencies
 ├── .streamlit/
 │   └── config.toml       # Streamlit configuration
@@ -131,7 +131,7 @@ batho-pele-app/
 - **Full Fees**: All other services require full payment
 - **Manual Review**: Cases flagged for administrative evaluation
 
-## 🔒 POPIA Compliance Features
+## 🔒 Privacy Compliance Features
 
 ### Data Protection
 
@@ -166,7 +166,7 @@ batho-pele-app/
 
 ### Compliance Reports
 
-- POPIA compliance scoring
+- Privacy compliance scoring
 - Data retention status
 - Audit trail completeness
 - Security incident summaries
@@ -303,7 +303,7 @@ enableCORS = false
 - **User Manual**: Comprehensive usage documentation
 - **Video Tutorials**: Step-by-step verification process
 - **Best Practices**: Guidelines for optimal system usage
-- **Compliance Training**: POPIA and data protection education
+- **Compliance Training**: Privacy and data protection education
 
 ## 🔧 Troubleshooting
 
@@ -364,4 +364,4 @@ _Empowering equitable healthcare access through AI-powered verification_
 
 🏥 Supporting South African public hospitals  
 🌍 Aligned with UN Sustainable Development Goals  
-🔒 POPIA compliant and secure
+🔒 Privacy compliant and secure
