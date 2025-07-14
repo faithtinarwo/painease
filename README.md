@@ -1,6 +1,6 @@
-# Batho Pele Healthcare Eligibility System
+# HealthVerify - Patient Eligibility System
 
-🏥 **AI-powered patient eligibility verification system for South African public hospitals**
+🏥 **AI-powered patient eligibility verification system for public healthcare institutions worldwide**
 
 Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resource management.
 
