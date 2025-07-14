@@ -126,7 +126,7 @@ if 'alerts' not in st.session_state:
 with st.sidebar:
     st.markdown("""
     <div style="text-align: center; padding: 1rem;">
-        <h2>🏥 Batho Pele</h2>
+                <h2>🏥 HealthVerify</h2>
         <p style="color: #64748B; font-size: 0.9rem;">Healthcare Eligibility System</p>
     </div>
     """, unsafe_allow_html=True)
