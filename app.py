@@ -257,7 +257,7 @@ if st.session_state.current_page == 'home':
         st.markdown("""
         - **Smart Verification**: AI-powered document scanning and validation
         - **Fair Classification**: Intelligent patient categorization
-        - **Privacy Compliant**: Secure data handling meeting SA privacy regulations
+                - **Privacy Compliant**: Secure data handling meeting international privacy regulations
         """)
     
     # UN SDG Alignment
