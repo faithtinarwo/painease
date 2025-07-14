@@ -186,7 +186,7 @@ def get_status_badge(status):
     }
     
     status_labels = {
-        'citizen': 'SA Citizen',
+                'citizen': 'Citizen',
         'legal_immigrant': 'Legal Immigrant',
         'undocumented': 'Undocumented',
         'free_care': 'Free Care',
