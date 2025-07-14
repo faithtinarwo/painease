@@ -11,7 +11,7 @@ import base64
 
 # Page configuration
 st.set_page_config(
-    page_title="Batho Pele Healthcare System",
+    page_title="HealthVerify - Patient Eligibility System",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
