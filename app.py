@@ -257,7 +257,7 @@ if st.session_state.current_page == 'home':
         st.markdown("""
         - **Smart Verification**: AI-powered document scanning and validation
         - **Fair Classification**: Intelligent patient categorization
-        - **POPIA Compliant**: Secure data handling meeting SA privacy regulations
+        - **Privacy Compliant**: Secure data handling meeting SA privacy regulations
         """)
     
     # UN SDG Alignment
@@ -579,7 +579,7 @@ elif st.session_state.current_page == 'alerts':
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #64748B; padding: 1rem;">
-    <p>🏥 HealthVerify Healthcare Eligibility System | POPIA Compliant | 
+    <p>🏥 HealthVerify Healthcare Eligibility System | Privacy Compliant | 
     Supporting UN SDG Goals 3, 10 & 16</p>
     <p><small>© 2024 HealthVerify. All rights reserved.</small></p>
 </div>
