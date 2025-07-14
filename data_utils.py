@@ -13,7 +13,7 @@ import uuid
 from pathlib import Path
 
 class SecureDataManager:
-    """POPIA-compliant data management system"""
+    """Privacy-compliant data management system"""
     
     def __init__(self, db_path: str = "healthcare_data.db"):
         self.db_path = db_path
