@@ -19,8 +19,8 @@ class SecureDataManager:
         self.db_path = db_path
         self.init_database()
         
-        # POPIA compliance settings
-        self.data_retention_days = 2555  # 7 years as per POPIA
+                # Privacy compliance settings
+        self.data_retention_days = 2555  # 7 years as per privacy regulations
         self.anonymization_required = True
         self.audit_logging = True
     
