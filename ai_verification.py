@@ -1,5 +1,5 @@
 """
-AI Verification Module for Batho Pele Healthcare System
+AI Verification Module for HealthVerify Patient Eligibility System
 Handles document processing, validation, and patient classification
 """
 
