@@ -300,9 +300,9 @@ elif st.session_state.current_page == 'verify':
         col1, col2 = st.columns(2)
         
         with col1:
-            doc_type = st.selectbox(
+                        doc_type = st.selectbox(
                 "Document Type",
-                ["South African ID", "Passport", "Asylum Seeker Permit", "Refugee ID", "Work Permit"]
+                ["National ID", "Passport", "Asylum Seeker Permit", "Refugee ID", "Work Permit", "Residence Permit"]
             )
             
             patient_id = st.text_input(
