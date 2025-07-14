@@ -436,8 +436,8 @@ class ReportGenerator:
         
         return fraud_summary
     
-    def generate_compliance_report(self) -> Dict:
-        """Generate POPIA compliance report"""
+        def generate_compliance_report(self) -> Dict:
+        """Generate privacy compliance report"""
         conn = sqlite3.connect(self.data_manager.db_path)
         
         # Data retention compliance
