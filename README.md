@@ -12,7 +12,7 @@ Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resou
 - **AI Classification**: Intelligent patient categorization (Citizen, Legal Immigrant, Undocumented)
 - **Eligibility Assessment**: Determines healthcare payment requirements
 - **Fraud Detection**: Real-time suspicious activity alerts
-- **Privacy Compliant**: Secure data handling meeting South African privacy regulations
+- **Privacy Compliant**: Secure data handling meeting National privacy regulations
 
 ### 📊 **Admin Dashboard**
 
@@ -61,7 +61,7 @@ Supporting UN SDG Goals 3, 10 & 16 through equitable healthcare access and resou
 ```
 batho-pele-app/
 ├── app.py                 # Main Streamlit application
-├── ai_verification.py     # AI document verification engine
+��── ai_verification.py     # AI document verification engine
 ├── data_utils.py         # Data management and Privacy compliance
 ├── requirements.txt      # Python dependencies
 ├── .streamlit/
@@ -112,7 +112,7 @@ batho-pele-app/
 
 ## 📋 Patient Categories & Eligibility
 
-### 🇿🇦 **South African Citizens**
+### 🇿🇦 **National Citizens**
 
 - **Free Services**: Emergency care, primary healthcare, maternal care, immunizations
 - **Payment**: No fees for essential services
@@ -362,6 +362,6 @@ For licensing inquiries and deployment partnerships, please contact the developm
 **© 2024 HealthVerify Healthcare System**  
 _Empowering equitable healthcare access through AI-powered verification_
 
-🏥 Supporting South African public hospitals  
+🏥 Supporting National public hospitals  
 🌍 Aligned with UN Sustainable Development Goals  
 🔒 Privacy compliant and secure
