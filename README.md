@@ -359,7 +359,7 @@ For licensing inquiries and deployment partnerships, please contact the developm
 
 ---
 
-**© 2024 Batho Pele Healthcare System**  
+**© 2024 HealthVerify Healthcare System**  
 _Empowering equitable healthcare access through AI-powered verification_
 
 🏥 Supporting South African public hospitals  
