@@ -86,7 +86,7 @@ class SecureDataManager:
     def hash_patient_id(self, patient_id: str) -> str:
         """Hash patient ID for privacy protection"""
         # Use SHA-256 with salt for patient ID hashing
-        salt = "batho_pele_2024"  # In production, use environment variable
+                salt = "healthverify_2024"  # In production, use environment variable
         return hashlib.sha256(f"{patient_id}{salt}".encode()).hexdigest()
     
         def store_verification(self, verification_data: Dict) -> str:
