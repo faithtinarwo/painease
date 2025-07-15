@@ -77,9 +77,7 @@ export default function Index() {
                 <Heart className="h-6 w-6 text-primary-foreground" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-foreground">
-                  HealthVerify
-                </h1>
+                <h1 className="text-xl font-bold text-foreground">PainEase</h1>
                 <p className="text-xs text-muted-foreground">
                   Pain Relief Assistant
                 </p>
