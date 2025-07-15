@@ -11,7 +11,7 @@ import base64
 
 # Page configuration
 st.set_page_config(
-    page_title="HealthVerify - Patient Eligibility System",
+    page_title="PainEase - Patient Eligibility System",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -125,7 +125,7 @@ if 'alerts' not in st.session_state:
 with st.sidebar:
     st.markdown("""
     <div style="text-align: center; padding: 1rem;">
-        <h2>🏥 HealthVerify</h2>
+        <h2>🏥 PainEase</h2>
         <p style="color: #64748B; font-size: 0.9rem;">Pain Relief Assistant</p>
     </div>
     """, unsafe_allow_html=True)
@@ -187,7 +187,7 @@ import base64
 
 # Page configuration
 st.set_page_config(
-    page_title="HealthVerify - Patient Eligibility System",
+    page_title="PainEase - Patient Eligibility System",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -302,7 +302,7 @@ if 'alerts' not in st.session_state:
 with st.sidebar:
     st.markdown("""
     <div style="text-align: center; padding: 1rem;">
-                <h2>🏥 HealthVerify</h2>
+                <h2>🏥 PainEase</h2>
         <p style="color: #64748B; font-size: 0.9rem;">Pain Relief Assistant</p>
     </div>
     """, unsafe_allow_html=True)
@@ -382,7 +382,7 @@ if st.session_state.current_page == 'home':
     # HOME PAGE
     st.markdown("""
     <div class="main-header">
-                <h1>🏥 HealthVerify - Patient Eligibility System</h1>
+                <h1>🏥 PainEase - Patient Eligibility System</h1>
         <p>AI-powered patient verification supporting public healthcare systems worldwide</p>
     </div>
     """, unsafe_allow_html=True)
@@ -642,8 +642,8 @@ elif st.session_state.current_page == 'alerts':
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #64748B; padding: 1rem;">
-    <p>🏥 HealthVerify Pain Relief Assistant | Privacy Compliant | 
+    <p>🏥 PainEase Pain Relief Assistant | Privacy Compliant | 
     Supporting UN SDG Goals 3, 10 & 16</p>
-    <p><small>© 2024 HealthVerify. All rights reserved.</small></p>
+    <p><small>© 2024 PainEase. All rights reserved.</small></p>
 </div>
 """, unsafe_allow_html=True)
