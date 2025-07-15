@@ -415,7 +415,7 @@ export default function Index() {
           </div>
           <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
             <p>
-              &copy; 2024 HealthVerify Healthcare System. All rights reserved.
+              &copy; 2024 PainEase Pain Relief System. All rights reserved.
               POPIA Compliant.
             </p>
           </div>
