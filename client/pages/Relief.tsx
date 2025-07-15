@@ -226,7 +226,7 @@ export default function Relief() {
                   <Heart className="h-4 w-4 text-primary-foreground" />
                 </div>
                 <span className="font-semibold text-foreground">
-                  Pain Relief Assistant
+                  PainEase - Pain Relief Assistant
                 </span>
               </div>
             </div>
