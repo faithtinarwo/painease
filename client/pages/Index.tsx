@@ -102,6 +102,12 @@ export default function Index() {
               >
                 Admin
               </Link>
+              <Link
+                to="/pitch"
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Pitch Deck
+              </Link>
               <Button size="sm">Get Started</Button>
             </div>
           </div>
