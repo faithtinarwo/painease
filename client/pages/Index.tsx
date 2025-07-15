@@ -51,10 +51,10 @@ const features = [
 ];
 
 const stats = [
-  { label: "Hospitals Served", value: "147", icon: Heart },
-  { label: "Patients Verified", value: "2.3M+", icon: Users },
-  { label: "Fraud Cases Prevented", value: "1,240", icon: Shield },
-  { label: "System Uptime", value: "99.9%", icon: Clock },
+  { label: "Patients Helped", value: "2.3M+", icon: Heart },
+  { label: "Pain Relief Sessions", value: "147K", icon: Users },
+  { label: "Average Wait Time", value: "8min", icon: Clock },
+  { label: "Success Rate", value: "94.2%", icon: Shield },
 ];
 
 const sdgGoals = [
