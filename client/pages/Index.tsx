@@ -124,9 +124,9 @@ export default function Index() {
               all Africans
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              AI-powered patient eligibility verification system that helps
-              public hospitals manage resources fairly while maintaining ethical
-              healthcare standards.
+              AI-powered healthcare assistant that provides immediate pain
+              relief guidance and comfort measures while patients wait to see
+              medical professionals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-3">
