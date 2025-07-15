@@ -87,10 +87,10 @@ export default function Index() {
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Link
-                to="/verify"
+                to="/relief"
                 className="text-foreground hover:text-primary transition-colors"
               >
-                Verify Patient
+                Pain Relief
               </Link>
               <Link
                 to="/dashboard"
