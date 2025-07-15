@@ -216,11 +216,11 @@ export default function Index() {
                   <CheckCircle className="h-6 w-6 text-success mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Smart Verification
+                      Instant Pain Assessment
                     </h4>
                     <p className="text-muted-foreground">
-                      AI-powered document scanning and validation for ID,
-                      passport, and asylum papers.
+                      AI-powered pain evaluation that provides personalized
+                      relief recommendations based on your symptoms.
                     </p>
                   </div>
                 </div>
@@ -228,11 +228,11 @@ export default function Index() {
                   <CheckCircle className="h-6 w-6 text-success mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Fair Classification
+                      Guided Relief Techniques
                     </h4>
                     <p className="text-muted-foreground">
-                      Intelligent patient categorization ensuring appropriate
-                      care and billing.
+                      Step-by-step breathing exercises, positioning guidance,
+                      and safe comfort measures you can do while waiting.
                     </p>
                   </div>
                 </div>
@@ -240,11 +240,11 @@ export default function Index() {
                   <CheckCircle className="h-6 w-6 text-success mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      POPIA Compliant
+                      Emergency Escalation
                     </h4>
                     <p className="text-muted-foreground">
-                      Secure data handling that meets South African privacy
-                      regulations.
+                      Automatic alerts to medical staff when pain levels
+                      indicate the need for immediate professional intervention.
                     </p>
                   </div>
                 </div>
