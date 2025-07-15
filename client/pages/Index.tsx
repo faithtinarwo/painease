@@ -120,8 +120,8 @@ export default function Index() {
             </Badge>
             <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               Ensuring{" "}
-              <span className="text-primary">Equitable Healthcare</span> for All
-              South Africans
+              <span className="text-primary">Equitable Healthcare</span> for all
+              Africans
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               AI-powered patient eligibility verification system that helps
