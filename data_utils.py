@@ -11,6 +11,7 @@ from typing import Dict, List, Optional
 import hashlib
 import uuid
 from pathlib import Path
+import numpy as np
 
 class SecureDataManager:
     """Privacy-compliant data management system"""
@@ -86,10 +87,10 @@ class SecureDataManager:
     def hash_patient_id(self, patient_id: str) -> str:
         """Hash patient ID for privacy protection"""
         # Use SHA-256 with salt for patient ID hashing
-                salt = "healthverify_2024"  # In production, use environment variable
+        salt = "healthverify_2024"  # In production, use environment variable
         return hashlib.sha256(f"{patient_id}{salt}".encode()).hexdigest()
-    
-        def store_verification(self, verification_data: Dict) -> str:
+
+    def store_verification(self, verification_data: Dict) -> str:
         """Store verification result with privacy compliance"""
         verification_id = str(uuid.uuid4())
         
@@ -433,10 +434,10 @@ class ReportGenerator:
         # Risk by category
         category_risk = fraud_data.groupby('category').size().to_dict()
         fraud_summary['risk_by_category'] = category_risk
-        
+
         return fraud_summary
-    
-        def generate_compliance_report(self) -> Dict:
+
+    def generate_compliance_report(self) -> Dict:
         """Generate privacy compliance report"""
         conn = sqlite3.connect(self.data_manager.db_path)
         
@@ -476,7 +477,7 @@ class ReportGenerator:
             'audit_trail': audit_stats,
             'recommendations': self._get_compliance_recommendations(compliance_score)
         }
-    
+
     def _get_compliance_recommendations(self, score: int) -> List[str]:
         """Get compliance improvement recommendations"""
         recommendations = []
@@ -489,7 +490,7 @@ class ReportGenerator:
             recommendations.append("Implement additional data protection measures")
         
         if score < 60:
-                        recommendations.append("Conduct privacy compliance training")
+            recommendations.append("Conduct privacy compliance training")
             recommendations.append("Review data handling procedures")
         
         return recommendations
