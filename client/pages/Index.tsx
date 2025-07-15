@@ -356,7 +356,7 @@ export default function Index() {
                 <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
                   <Heart className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="text-lg font-bold">HealthVerify</span>
+                <span className="text-lg font-bold">PainEase</span>
               </div>
               <p className="text-muted-foreground mb-4">
                 Empowering patients across Africa with AI-driven pain relief
