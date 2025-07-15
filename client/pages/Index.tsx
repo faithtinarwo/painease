@@ -119,9 +119,9 @@ export default function Index() {
               Supporting UN SDG Goals 3, 10 & 16
             </Badge>
             <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Ensuring{" "}
-              <span className="text-primary">Equitable Healthcare</span> for all
-              Africans
+              Providing{" "}
+              <span className="text-primary">Immediate Pain Relief</span> for
+              all Africans
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               AI-powered patient eligibility verification system that helps
