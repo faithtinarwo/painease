@@ -25,28 +25,28 @@ import { Badge } from "@/components/ui/badge";
 
 const features = [
   {
-    icon: FileCheck,
-    title: "Document Verification",
+    icon: Heart,
+    title: "Pain Assessment",
     description:
-      "Advanced AI-powered scanning and verification of ID documents, passports, and asylum papers",
+      "AI-powered pain assessment tool that helps identify your pain level and type for appropriate relief recommendations",
   },
   {
     icon: Users,
-    title: "Patient Classification",
+    title: "Guided Relief",
     description:
-      "Intelligent classification system for South African citizens, legal immigrants, and undocumented individuals",
+      "Step-by-step guided exercises, breathing techniques, and positioning advice for immediate comfort",
   },
   {
-    icon: BarChart3,
-    title: "Admin Dashboard",
+    icon: Clock,
+    title: "Wait Time Support",
     description:
-      "Comprehensive analytics and reporting for hospital administrators and healthcare officials",
+      "Real-time queue updates and estimated wait times to help you plan your pain management",
   },
   {
     icon: AlertTriangle,
-    title: "Red Flag Alerts",
+    title: "Emergency Alerts",
     description:
-      "Real-time suspicious activity detection and fraud prevention mechanisms",
+      "Immediate escalation system for severe pain or emergency situations requiring urgent medical attention",
   },
 ];
 
