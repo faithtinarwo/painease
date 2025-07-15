@@ -11,7 +11,7 @@ import base64
 
 # Page configuration
 st.set_page_config(
-    page_title="PainEase - Patient Eligibility System",
+    page_title="PainEase - Pain Relief Assistant",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -187,7 +187,7 @@ import base64
 
 # Page configuration
 st.set_page_config(
-    page_title="PainEase - Patient Eligibility System",
+    page_title="PainEase - Pain Relief Assistant",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -382,7 +382,7 @@ if st.session_state.current_page == 'home':
     # HOME PAGE
     st.markdown("""
     <div class="main-header">
-                <h1>🏥 PainEase - Patient Eligibility System</h1>
+                <h1>🏥 PainEase - Pain Relief Assistant</h1>
         <p>AI-powered patient verification supporting public healthcare systems worldwide</p>
     </div>
     """, unsafe_allow_html=True)
