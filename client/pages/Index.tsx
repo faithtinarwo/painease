@@ -81,7 +81,7 @@ export default function Index() {
                   HealthVerify
                 </h1>
                 <p className="text-xs text-muted-foreground">
-                  Healthcare Eligibility System
+                  Pain Relief Assistant
                 </p>
               </div>
             </div>
