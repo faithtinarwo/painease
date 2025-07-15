@@ -126,7 +126,7 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align: center; padding: 1rem;">
         <h2>🏥 HealthVerify</h2>
-        <p style="color: #64748B; font-size: 0.9rem;">Healthcare Eligibility System</p>
+        <p style="color: #64748B; font-size: 0.9rem;">Pain Relief Assistant</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -303,7 +303,7 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align: center; padding: 1rem;">
                 <h2>🏥 HealthVerify</h2>
-        <p style="color: #64748B; font-size: 0.9rem;">Healthcare Eligibility System</p>
+        <p style="color: #64748B; font-size: 0.9rem;">Pain Relief Assistant</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -642,7 +642,7 @@ elif st.session_state.current_page == 'alerts':
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #64748B; padding: 1rem;">
-    <p>🏥 HealthVerify Healthcare Eligibility System | Privacy Compliant | 
+    <p>🏥 HealthVerify Pain Relief Assistant | Privacy Compliant | 
     Supporting UN SDG Goals 3, 10 & 16</p>
     <p><small>© 2024 HealthVerify. All rights reserved.</small></p>
 </div>
