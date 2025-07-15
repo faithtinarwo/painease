@@ -361,8 +361,8 @@ export default function Index() {
                 <span className="text-lg font-bold">HealthVerify</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Empowering South African public hospitals with AI-driven patient
-                eligibility verification for equitable healthcare access.
+                Empowering patients across Africa with AI-driven pain relief
+                guidance and comfort measures while waiting for medical care.
               </p>
             </div>
             <div>
