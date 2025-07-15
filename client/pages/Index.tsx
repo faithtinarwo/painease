@@ -370,10 +370,10 @@ export default function Index() {
               <ul className="space-y-2 text-muted-foreground">
                 <li>
                   <Link
-                    to="/verify"
+                    to="/relief"
                     className="hover:text-primary transition-colors"
                   >
-                    Patient Verification
+                    Pain Relief
                   </Link>
                 </li>
                 <li>
