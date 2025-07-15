@@ -173,11 +173,11 @@ export default function Index() {
                   <AlertTriangle className="h-6 w-6 text-warning mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Overwhelmed Resources
+                      Long Waiting Times
                     </h4>
                     <p className="text-muted-foreground">
-                      Public hospitals face bed shortages and medicine
-                      stock-outs due to undocumented patients.
+                      Patients suffer in pain for hours while waiting to see
+                      medical professionals in overcrowded facilities.
                     </p>
                   </div>
                 </div>
@@ -185,11 +185,11 @@ export default function Index() {
                   <Users className="h-6 w-6 text-warning mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Unverified Patients
+                      Limited Pain Management
                     </h4>
                     <p className="text-muted-foreground">
-                      Lack of proper verification systems leads to diminished
-                      access for citizens.
+                      Lack of immediate pain relief guidance leaves patients
+                      feeling helpless while waiting for medical attention.
                     </p>
                   </div>
                 </div>
@@ -197,11 +197,11 @@ export default function Index() {
                   <Heart className="h-6 w-6 text-warning mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Inequitable Care
+                      No Comfort Measures
                     </h4>
                     <p className="text-muted-foreground">
-                      Limited resources aren't being distributed fairly among
-                      those who need them most.
+                      Patients don't know what safe, effective methods they can
+                      use to reduce pain while waiting for professional care.
                     </p>
                   </div>
                 </div>
