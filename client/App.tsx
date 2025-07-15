@@ -25,6 +25,7 @@ const App = () => (
           <Route path="/relief" element={<Relief />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Dashboard />} />
+          <Route path="/pitch" element={<PitchDeck />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
