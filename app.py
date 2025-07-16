@@ -413,17 +413,18 @@ if st.session_state.current_page == 'home':
 elif st.session_state.current_page == 'relief':
     # PAIN RELIEF ASSESSMENT PAGE
     st.title("💊 Pain Relief Assistant")
-    
+
     # Progress indicator
     if 'assessment_complete' not in st.session_state:
         st.session_state.assessment_complete = False
-    
+
     if not st.session_state.assessment_complete:
         # Pain Assessment Form
         st.markdown("### 🩺 Pain Assessment")
         st.markdown("Help us understand your pain so we can provide the best relief recommendations.")
-        
-        with st.form("pain_assessment"):
+
+        # --- Start of the corrected form ---
+        with st.form("pain_assessment_form"): # Renamed for clarity, but "pain_assessment" is fine too
             # Pain level
             pain_level = st.slider(
                 "Rate your pain level (1-10):",
@@ -432,80 +433,83 @@ elif st.session_state.current_page == 'relief':
                 value=5,
                 help="1 = No pain, 10 = Unbearable pain"
             )
-            
+
             st.markdown(f"**Pain Description**: {PAIN_DESCRIPTIONS[pain_level]}")
-            
+
             # Pain scale visualization
             st.markdown(f"""
             <div class="pain-scale">
                 <div style="width: {pain_level*10}%; height: 100%; background: rgba(0,0,0,0.3); border-radius: 10px;"></div>
             </div>
             """, unsafe_allow_html=True)
-            
+
             col1, col2 = st.columns(2)
-            
+
             with col1:
                 # Pain type
                 pain_type = st.selectbox(
                     "Type of pain:",
                     ["Sharp/Stabbing", "Dull/Aching", "Throbbing", "Burning", "Cramping"]
                 )
-                
+
                 # Duration
                 duration = st.selectbox(
                     "How long have you had this pain?",
                     ["Less than 1 hour", "1-6 hours", "1 day", "2-7 days", "1+ weeks"]
                 )
-            
+
             with col2:
                 # Body location
                 location = st.selectbox(
                     "Where is your pain?",
                     ["Head/Neck", "Chest", "Abdomen", "Back", "Legs", "Arms", "Joints"]
                 )
-            
+
             # Additional symptoms
             st.markdown("**Additional symptoms** (select all that apply):")
             symptom_cols = st.columns(4)
             symptoms = []
-            
+
             symptom_options = [
                 "Nausea", "Dizziness", "Shortness of breath", "Fever",
                 "Sweating", "Numbness", "Tingling", "Weakness"
             ]
-            
+
             for i, symptom in enumerate(symptom_options):
                 with symptom_cols[i % 4]:
                     if st.checkbox(symptom):
                         symptoms.append(symptom)
-            
+
+            # Use one submit button for this combined form
             submitted = st.form_submit_button("Get Relief Plan", type="primary")
-            
+
             if submitted:
-                # Store assessment
+                # Store all collected data in session_state
                 st.session_state.pain_assessment = {
                     'level': pain_level,
                     'type': pain_type,
                     'location': location,
                     'duration': duration,
-                    'symptoms': symptoms,
+                    'symptoms': symptoms, # This will be a list of selected symptoms
                     'timestamp': datetime.now()
                 }
-                
+                st.success("✅ Pain assessment recorded.")
+
                 # Check for emergency
-                if assess_pain_emergency(pain_level, symptoms):
+                if assess_pain_emergency(pain_level, symptoms): # Make sure assess_pain_emergency can handle a list of symptoms
                     st.session_state.current_page = 'emergency'
                     st.rerun()
                 else:
                     st.session_state.assessment_complete = True
                     st.rerun()
-    
+        # --- End of the corrected form ---
+
     else:
         # Show relief recommendations
         assessment = st.session_state.pain_assessment
-        
+
         st.markdown("### ✅ Assessment Complete")
-        
+
         # Display assessment summary
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -514,13 +518,13 @@ elif st.session_state.current_page == 'relief':
             st.metric("Type", assessment['type'])
         with col3:
             st.metric("Location", assessment['location'])
-        
+
         # Warning for high pain
         if assessment['level'] >= 7:
             st.markdown("""
             <div class="emergency-alert">
                 ⚠️ <strong>High Pain Level Detected</strong><br>
-                Your pain level indicates you may need immediate medical attention. 
+                Your pain level indicates you may need immediate medical attention.
                 Please inform medical staff if your pain worsens.
             </div>
             """, unsafe_allow_html=True)
